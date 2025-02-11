@@ -17,15 +17,19 @@
 }
 
 .addButton {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
   background-color: var(--blue-dark);
-  color: white;
+  color: var(--gray-100);
   border: none;
-  padding: 5px 40px;
+  padding: 5px 20px;
   font-size: 18px;
   border-radius: 5px;
   cursor: pointer;
   margin-left: 10px;
   transition: background-color 0.3s ease;
+  gap: 8px; /* Adiciona espaço entre o texto e o ícone */
 }
 
 .addButton:hover {
