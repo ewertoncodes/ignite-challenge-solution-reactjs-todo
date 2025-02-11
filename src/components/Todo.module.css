@@ -1,0 +1,33 @@
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;  
+}
+
+.inputContainer input {
+  width: 20%;
+  height: 30px;
+  padding: 20px;
+  color: var(--gray-300);
+  background-color: var(--gray-500);
+  border-radius: 5px;
+  padding-left: 30px;
+  border: none;
+  outline: none;
+}
+
+.addButton {
+  background-color: var(--blue-dark);
+  color: white;
+  border: none;
+  padding: 5px 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #003366;
+}
