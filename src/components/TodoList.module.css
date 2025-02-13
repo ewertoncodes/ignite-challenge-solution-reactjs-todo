@@ -1,0 +1,51 @@
+.todoList {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.todoList header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--gray-400);
+  padding-bottom: 10px;
+}
+
+.todoList aside {
+  font-weight: bold;
+  color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.todoList span {
+  background-color: var(--gray-300);
+  color: var(--gray-900);
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  gap: 15px;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
