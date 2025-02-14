@@ -1,7 +1,7 @@
-import styles from './TodoList.module.css';
-import { ClipboardText } from "@phosphor-icons/react";
+import styles from './EmptyList.module.css'
+import { ClipboardText } from "@phosphor-icons/react"
 
-export function TodoList() {
+export function EmptyList() {
   return (
     <div className={styles.todoList}>
       <header>
