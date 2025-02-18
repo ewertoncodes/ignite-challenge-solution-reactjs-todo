@@ -1,4 +1,4 @@
-.inputContainer {
+.container { 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,9 +6,6 @@
   margin-top: -15px;  
   width: 100%;
   max-width: 500px;
-}
-
-.inputContainer input {
   flex: 1;
   height: 40px;
   padding: 10px;
@@ -19,23 +16,4 @@
   border: none;
   outline: none;
   min-width: 250px;
-}
-
-.addButton {
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  background-color: var(--blue-dark);
-  color: var(--gray-100);
-  border: none;
-  padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  gap: 8px;
-}
-
-.addButton:hover {
-  background-color: #003366;
 }

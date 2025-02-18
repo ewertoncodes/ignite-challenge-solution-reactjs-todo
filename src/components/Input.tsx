@@ -1,9 +1,18 @@
 import styles from '../components/Input.module.css';
 
-export function Input() {
+type InputProps = {
+  value: string
+  onChange: (value: string) => void
+}
+
+export function Input({value, onChange}:InputProps) {
   return (
-    <form className={styles.inputContainer} >
-      <input type="text" placeholder="Adicione uma nova tarefa" />
-    </form>
+    <input 
+      className={styles.container} 
+      type="text"
+      value={value}
+      placeholder="Adicione uma nova tarefa" 
+      onChange={(e)=>onChange(e.target.value)}
+    />
   )
 }
