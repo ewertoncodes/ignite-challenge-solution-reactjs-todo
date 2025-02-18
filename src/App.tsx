@@ -10,8 +10,6 @@ export function App() {
   const [task, setTasks] = useState("")
 
   const handleButtonClick = () => {
-    console.log(task)
-    // limpa o input
     setTasks("")
   }
 

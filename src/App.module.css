@@ -12,14 +12,5 @@
 .content {
   display: flex;
   gap: 8px;
-}
-
-.todoList {
   width: 100%;
-  max-width: 100%;
-}
-
-.todoList {
-  padding: 20px;
-  margin-top: 20px;
 }
