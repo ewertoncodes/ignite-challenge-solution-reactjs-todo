@@ -1,20 +1,9 @@
-import styles from '../components/Todo.module.css'
-
-import { PlusCircle } from "@phosphor-icons/react";
+import styles from '../components/Input.module.css';
 
 export function Input() {
-  const handleNewTask = (event: any) => {
-    event.preventDefault()
-    console.log('submit')
-  }
-
   return (
-    <form className={styles.inputContainer} onSubmit={handleNewTask}>
+    <form className={styles.inputContainer} >
       <input type="text" placeholder="Adicione uma nova tarefa" />
-      <button className={styles.addButton}>
-        Criar
-        <PlusCircle size={20} />
-      </button>
     </form>
   )
 }

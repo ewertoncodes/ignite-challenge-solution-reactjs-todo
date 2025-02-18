@@ -3,13 +3,17 @@ import { Input } from "./components/Input"
 import { EmptyList } from "./components/EmptyList"
 
 import  styles  from './App.module.css'
+import { Button } from "./components/Button"
 
 export function App() {
   return (
     <>
       <Header />
       <div className={styles.container}>
-        <Input />
+        <div className={styles.content}>
+          <Input />
+          <Button />
+        </div>
         <EmptyList />
       </div>
     </>
