@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Header } from "./components/Header";
 import { Input } from "./components/Input";
-import { EmptyList } from "./components/EmptyList";
+import { EmptyList } from "./components/list/EmptyList";
 import { TaskList } from "./components/list/TaskList";
 import { Button } from "./components/Button";
 import styles from "./App.module.css";
