@@ -1,4 +1,7 @@
 :root{
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   /* Produto */
   --blue-dark: #1E6F9F;
   --blue: #4EA8DE;
